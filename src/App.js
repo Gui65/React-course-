@@ -19,8 +19,10 @@ const App = () => {
   
   return (
     <>
-        <div className='container'></div>
-        
+        <div className='container'>
+              <Tasks tasks={tasks} />
+        </div>
+          
     </>
   );
   
